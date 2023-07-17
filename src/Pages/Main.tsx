@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import { Outlet } from 'react-router-dom';
 
 const Container = styled.div`
 	width: 360px;
@@ -13,14 +14,14 @@ const Container = styled.div`
 	box-sizing: border-box;
 `;
 
-function Main() {
+function MainPage() {
 	return (
 		<Container>
-			<Header />
-			heelo
-			<Footer />
+			{/* <Header /> */}
+			<Outlet />
+			{/* <Footer /> */}
 		</Container>
 	);
 }
 
-export default Main;
+export default MainPage;
