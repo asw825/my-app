@@ -18,7 +18,7 @@ function MainPage() {
 	return (
 		<Container>
 			{/* <Header /> */}
-
+			hello
 			<Outlet />
 			{/* <Footer /> */}
 		</Container>
