@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 
 const Container = styled.div`
 	width: 360px;
-	height: 640px;
+	height: 100vh;
 	display: flex;
 	flex-direction: center;
 	justify-content: center;
@@ -18,6 +18,7 @@ function MainPage() {
 	return (
 		<Container>
 			{/* <Header /> */}
+
 			<Outlet />
 			{/* <Footer /> */}
 		</Container>

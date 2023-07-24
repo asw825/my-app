@@ -1,8 +1,9 @@
 import './App.css';
 import Main from './Pages/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import SurvivalPage from './Pages/SurvivaPage';
+import React, { useContext } from 'react';
 import ComunityPage from './Pages/ComunityPage';
+import SurvivalPage from './Pages/SurvivalPage';
 
 function App() {
 	return (
@@ -10,8 +11,8 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Main />}>
-						{/* <Route path="survivalPage" element={<SurvivalPage />} /> */}
-						<Route path="comunityPage" element={<ComunityPage />} />
+						<Route path="survival" element={<SurvivalPage />} />
+						<Route path="comunity" element={<ComunityPage />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>
