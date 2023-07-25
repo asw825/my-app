@@ -1,9 +1,9 @@
 import './App.css';
-import Main from './Pages/Main';
+import Main from './pages/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React, { useContext } from 'react';
-import ComunityPage from './Pages/ComunityPage';
-import SurvivalPage from './Pages/SurvivalPage';
+import ComunityPage from './pages/ComunityPage';
+import SurvivalPage from './pages/SurvivalPage';
 
 function App() {
 	return (

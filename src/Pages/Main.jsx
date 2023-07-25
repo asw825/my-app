@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Outlet } from 'react-router-dom';
 
 const Container = styled.div`
@@ -18,7 +18,6 @@ function MainPage() {
 	return (
 		<Container>
 			{/* <Header /> */}
-			hello
 			<Outlet />
 			{/* <Footer /> */}
 		</Container>

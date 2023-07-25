@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import TinderCard from 'react-tinder-card';
 import styled from 'styled-components';
 import { Character } from './type';
-import Button from '../Buttons/Button';
-import BottomSheet from '../LayoutSheet/BottomSheet';
-import TopSheet from '../LayoutSheet/TopSheet';
-import View from '../ViewArea/View';
+import Button from '../buttons/Button';
+import BottomSheet from '../layoutsheet/BottomSheet';
+import TopSheet from '../layoutsheet/TopSheet';
+import View from '../viewarea/View';
 import './characterCard.css';
 
 const Content = styled.div`

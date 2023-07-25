@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TinderCard from 'react-tinder-card';
 import styled from 'styled-components';
-import CharacterList from '../Components/Caracter/CharacterList';
+import CharacterList from '../components/caracter/CharacterList';
 
 const CardContainer = styled.div`
 	width: 90vw;
