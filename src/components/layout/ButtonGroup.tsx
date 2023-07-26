@@ -8,17 +8,17 @@ const BottomSheetContent = styled.div`
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px solid red;
+	/* border: 1px solid red; */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 	margin-bottom: 10px;
 `;
 
-function BottomSheet() {
+function ButtonGroup() {
 	return (
 		<BottomSheetContent>
-			<Button />
 			<Button />
 		</BottomSheetContent>
 	);
 }
 
-export default BottomSheet;
+export default ButtonGroup;

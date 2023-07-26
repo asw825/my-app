@@ -3,16 +3,18 @@ import TinderCard from 'react-tinder-card';
 import styled from 'styled-components';
 import CharacterList from '../components/caracter/CharacterList';
 
-const CardContainer = styled.div`
-	width: 90vw;
-	max-width: 320px;
-	height: 300px;
-	overflow: hidden;
-`;
-
 function SurvivalPage() {
 	return (
 		<>
+			<div
+				style={{
+					backgroundColor: '#FFFFFF',
+					zIndex: 0,
+					width: 300,
+					height: 300,
+					position: 'absolute',
+				}}
+			></div>
 			<CharacterList />
 		</>
 	);

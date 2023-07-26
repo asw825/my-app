@@ -1,22 +1,33 @@
+import dinesh from '../assets/Images/dinesh.jpg';
+import richard from '../assets/Images/richard.jpg';
+import monica from '../assets/Images/monica.jpg';
+import jared from '../assets/Images/jared.jpg';
+import erlich from '../assets/Images/erlich.jpg';
+
 export const dummyData = [
 	{
 		name: 'Richard Hendricks',
-		url: './Assets/Images/richard.jpg',
+		url: richard,
+		city: 'seoul',
 	},
 	{
 		name: 'Erlich Bachman',
-		url: './Assets/Images/erlich.jpg',
+		url: erlich,
+		city: 'seoul',
 	},
 	{
 		name: 'Monica Hall',
-		url: './Assets/Images/monica.jpg',
+		url: monica,
+		city: 'seoul',
 	},
 	{
 		name: 'Jared Dunn',
-		url: './Assets/Images/jared.jpg',
+		url: jared,
+		city: 'seoul',
 	},
 	{
 		name: 'Dinesh Chugtai',
-		url: './Assets/Images/dinesh.jpg',
+		url: dinesh,
+		city: 'seoul',
 	},
 ];

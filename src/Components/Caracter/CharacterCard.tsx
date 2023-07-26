@@ -3,26 +3,23 @@ import TinderCard from 'react-tinder-card';
 import styled from 'styled-components';
 import { Character } from './type';
 import Button from '../buttons/Button';
-import BottomSheet from '../layoutsheet/BottomSheet';
-import TopSheet from '../layoutsheet/TopSheet';
-import View from '../viewarea/View';
+import ButtonGroup from '../layout/ButtonGroup';
+import UserInfo from '../layout/UserInfo';
+import View from '../layout/View';
 import './characterCard.css';
 
 const Content = styled.div`
 	width: 320px;
-	height: 100vh;
+	height: 90vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid red;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+	/* border: 1px solid red; */
 	box-sizing: border-box;
 	background-color: #fff;
 `;
-
-// style={{
-// 			backgroundImage: 'url(' + character.url + ')',
-// 		}}
 
 function CharacterCard({ character }: { character: Character }) {
 	const outOfFrame = (name: string) => {
@@ -40,9 +37,9 @@ function CharacterCard({ character }: { character: Character }) {
 			className="charactercard"
 		>
 			<Content>
-				<TopSheet character={character} />
+				<UserInfo character={character} />
 				<View character={character} />
-				<BottomSheet />
+				<ButtonGroup />
 			</Content>
 		</TinderCard>
 	);
