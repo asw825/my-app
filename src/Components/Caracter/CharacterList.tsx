@@ -7,7 +7,6 @@ function CharacterList() {
 	return (
 		<>
 			{characters.map((character: Character) => {
-				console.log(character);
 				return <CharacterCard character={character} key={character.name} />;
 			})}
 		</>

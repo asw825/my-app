@@ -15,8 +15,9 @@ const Content = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
-	/* border: 1px solid red; */
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+	border: 1px solid gray;
+	border-radius: 15px;
 	box-sizing: border-box;
 	background-color: #fff;
 `;

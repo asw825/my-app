@@ -1,8 +1,8 @@
-import dinesh from '../assets/Images/dinesh.jpg';
-import richard from '../assets/Images/richard.jpg';
-import monica from '../assets/Images/monica.jpg';
-import jared from '../assets/Images/jared.jpg';
-import erlich from '../assets/Images/erlich.jpg';
+import dinesh from '../assets/images/dinesh.jpg';
+import richard from '../assets/images/richard.jpg';
+import monica from '../assets/images/monica.jpg';
+import jared from '../assets/images/jared.jpg';
+import erlich from '../assets/images/erlich.jpg';
 
 export const dummyData = [
 	{

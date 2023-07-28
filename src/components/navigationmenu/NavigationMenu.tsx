@@ -4,6 +4,8 @@ import { GiCardRandom } from 'react-icons/gi';
 import { AiFillHeart } from 'react-icons/ai';
 import { BsFillChatTextFill } from 'react-icons/bs';
 import { FaUserAlt } from 'react-icons/fa';
+import { FaRankingStar } from 'react-icons/fa6';
+
 import { Link } from 'react-router-dom';
 
 const StyledNavigationMenu = styled.div`
@@ -24,11 +26,14 @@ const StyledNavigationMenu = styled.div`
 function NavigationMenu() {
 	return (
 		<StyledNavigationMenu>
-			<Link to={'/'}>
+			<Link to={'/survival'}>
 				<GiCardRandom size={28} color="#ADAFBB" />
 			</Link>
 			<Link to={'/like'}>
 				<AiFillHeart size={28} color="#ADAFBB" />
+			</Link>
+			<Link to={'/rank'}>
+				<FaRankingStar size={28} color="#ADAFBB" />
 			</Link>
 			<Link to={'/chat'}>
 				<BsFillChatTextFill size={28} color="#ADAFBB" />

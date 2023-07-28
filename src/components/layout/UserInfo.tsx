@@ -9,7 +9,7 @@ const UserInfoCotent = styled.div`
 	justify-content: center;
 	align-items: center;
 	/* border: 1px solid red; */
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
 	border-radius: 15px;
 	margin-top: 10px;
 	flex-direction: column;

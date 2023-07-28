@@ -14,17 +14,13 @@ const Container = styled.div`
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
 	/* border: 1px solid red; */
 	box-sizing: border-box;
+	padding-bottom: 50px;
 `;
 
 function MainPage() {
 	return (
 		<Container>
-			{/* <Header /> */}
-			<Link to={'/survival'}>
-				<button>survivalMode</button>
-			</Link>
 			<Outlet />
-			{/* <Footer /> */}
 			<NavigationMenu />
 		</Container>
 	);
