@@ -3,9 +3,9 @@ import TinderCard from 'react-tinder-card';
 import styled from 'styled-components';
 import { Character } from './type';
 import Button from '../buttons/Button';
-import ButtonGroup from '../layout/ButtonGroup';
-import UserInfo from '../layout/UserInfo';
-import View from '../layout/View';
+import ButtonGroup from './layout/ButtonGroup';
+import UserInfo from './layout/UserInfo';
+import View from './layout/View';
 import './characterCard.css';
 
 const Content = styled.div`

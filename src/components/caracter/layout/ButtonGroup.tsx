@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from 'styled-components';
-import Button from '../buttons/Button';
+import Button from '../../buttons/Button';
 
 const BottomSheetContent = styled.div`
 	width: 320px;

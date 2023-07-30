@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from 'styled-components';
-import { Character } from '../caracter/type';
+import { Character } from '../type';
 
 const ViewCotent = styled.div`
 	width: 320px;
