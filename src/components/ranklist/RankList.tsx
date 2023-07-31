@@ -10,24 +10,25 @@ const RankListScroll = styled.div`
 		display: none;
 	}
 `;
-const compareCharacters = (a: Character, b: Character) => {
-	if (a.rate < b.rate) {
-		return -1;
-	}
-	if (a.rate > b.rate) {
-		return 1;
-	}
-	return 0;
-};
+// const compareCharacters = (a: Character, b: Character) => {
+// 	if (a.rate < b.rate) {
+// 		return -1;
+// 	}
+// 	if (a.rate > b.rate) {
+// 		return 1;
+// 	}
+// 	return 0;
+// };
 function RankList() {
 	const characters = dummyData;
 	return (
 		<RankListScroll>
-			{characters
-				.map((character: Character) => {
+			{
+				characters.map((character: Character) => {
 					return <LankTemplate character={character} key={character.name} />;
 				})
-				.sort(compareCharacters)}
+				// .sort(compareCharacters)
+			}
 		</RankListScroll>
 	);
 }

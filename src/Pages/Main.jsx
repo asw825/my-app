@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link, Outlet } from 'react-router-dom';
 import NavigationMenu from '../components/navigationmenu/NavigationMenu';
+import LoginPage from './LoginPage';
 
 const Container = styled.div`
 	width: 360px;
@@ -20,6 +21,7 @@ const Container = styled.div`
 function MainPage() {
 	return (
 		<Container>
+			<LoginPage />
 			<Outlet />
 			<NavigationMenu />
 		</Container>
